@@ -1,0 +1,427 @@
+#headline{
+ 
+	width:100%;
+	min-width: 1263px;
+	height:300px;
+	background:linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0)),url(../img/search.jpg) no-repeat center;
+	
+}
+
+#headline .center{
+	width: 1262px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#headline hgroup{
+	padding:100px 0 0 50px;
+	text-align: center; 
+	color: #fff;
+}
+/*==================================*/
+
+#container{
+	width: 1263px;
+	height: 1200px;
+	margin: 30px auto;
+}
+
+#container .sidebar{
+	width: 340px;
+	height: 1200px;
+	float: right;
+
+}
+
+#container .sidebox{
+	border: 1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#container .sidebox h2{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 8px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+
+}
+#container .tag{
+	padding: 10px 0;
+}
+#container .tag li{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;	
+	background-color: #eee;
+	margin: 2px 0;
+	text-align: left;
+}
+#container .tag a{
+	
+	display: block;
+	color: #999;
+}
+#container .tag a:hover{
+	background-color:#458b00;
+	color: #fff;
+}
+
+#container figure{
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+
+}
+
+
+#container .box{
+	padding: 10px 0;
+}
+#container .box a{
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	background-color: #eee;
+	margin: 2px 0;
+	line-height: 35px;
+	color: #666;
+}
+#container .box a:hover{
+	background-color:#458b00;
+	color: #fff;
+}
+
+
+
+
+/*==============================*/
+#container .list{
+	width: 900px;
+	height: 1200px;	
+	float: left;
+}
+#container .infor{
+	background-color: #eee;
+	line-height: 45px;
+	height: 45px;
+	margin: 0 0 20px 0;
+}
+#container .infor .left{
+	display: inline-block;
+	float: left;
+}
+#container .infor .left li{
+	display: inline-block;
+	height: 43px;
+	line-height: 45px;
+	width: 150px;
+	text-align: center;
+}
+#container .infor .left li:first-child{
+	background-color: #fff;
+	border-top: 2px solid #458b00;
+	position: relative;
+	left: 1px;
+}
+#container .infor .left li a{
+	color: #666;
+}
+
+
+#container .infor .right{
+	display: inline-block;
+	padding: 0 20px 0 0;
+	float: right;
+}
+#container .infor .right li{
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align:  center;
+}
+#container .infor .right  a{
+	color: #666;
+	padding: 3px 8px;
+	
+}
+#container .infor .right a.sel,#container .right a:hover{
+	background-color: #458b00;
+	color: #fff;
+}
+
+#container .tour{
+	width: 910px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border: 1px solid #eee;
+	position: relative;
+}
+#container .tour img{
+	float: left;
+}
+#container .tour figcaption{
+	width: 528px;
+	height: 230px;
+	float: right;
+}
+#container .tour footer{
+	width: 528px;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 35px;
+	color: #666;
+	position:absolute;
+	bottom: 0;
+	background-color: #fafafa;
+	letter-spacing: 1px;
+}
+#container .tour h2{
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+
+}
+#container .tour h3{
+	font-size: 16px;
+	color: #666;
+	line-height:1.5;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+}
+#container .tour hgroup{
+	width: 300px;
+}
+#container .tour time{
+	color: #458b00;
+}
+#container .tour ol{
+	padding: 0 0 0 25px;
+	color: #666;
+	line-height:2;
+}
+#container .tour mark{
+	background-color: #fff;
+	border: 1px solid #458b00;
+	border-radius: 4px;
+	padding: 0 5px;
+	color: #458b00;
+}
+
+#container .tour .buy{
+	position: absolute;
+	top: 55px;
+	right:30px;
+}
+
+#container .tour .price{
+	color: #f60;
+	font-size: 20px;
+}
+
+#container .tour .price strong{
+	font-size: 36px;
+}
+#container .tour .price s{
+	color: #999;
+	font-size: 16px;
+}
+#container .tour .reserve{
+	margin: 10px 0 0 0;
+}
+#container .tour .reserve a{
+	display: block;
+	width: 152px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background-color: #f60;
+	border-radius: 4px;
+}
+
+#container .tour .type{
+	background-color: #59b200;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	width: 90px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top:0;
+	left:0;
+
+}
+
+#container .tour .disc{
+	position:absolute;
+	top: 0;
+	right: 0;
+	width: 52px;
+	height: 52px;
+	background-image:url() no-repeat;
+ 
+}
+#container .tour .disc span{
+	width: 52px;
+	height: 52px;
+	font-size: 14px;
+	text-indent: 7px;
+	color: #ff7a4d;
+	padding:5px 0 0 0 ;
+	display: block;
+	transform: rotate(45deg);
+}
+#container .infor .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	border:1px solid #ccc;
+	background-color: #fafafa;
+	border-radius: 10px;
+	cursor:pointer;
+	font-size: 18px;
+
+}
+/*=============================*/
+#container .ticket{
+	color: #666;
+	font-size: 20px;
+}
+#container .ticket h2{
+	height: 40px;
+	line-height: 40px;
+	border-bottom:1px dashed #999;
+	padding: 0 0 15px 0;
+	font-weight: normal;
+}
+#container .ticket .type{
+	margin:20px 0 10px 0;
+}
+#container .ticket .type mark{
+	color: #fff;
+	background-color: #458b00;
+	padding: 5px 8px;
+	border-radius:4px;
+	margin: 0 10px  
+}
+#container .ticket  .left{
+	display: inline-block;
+	width: 43%;
+
+}
+#container .ticket  .right{
+	display: inline-block;
+	width: 43%;
+}
+#container .ticket  .button{
+	display: inline-block;
+	width: 9%;
+}
+#container .ticket .submit{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background-color: #f60;
+	border-radius: 4px;
+	border: none;
+	position: relative;
+	top:-22px;
+	cursor: pointer;
+}
+
+}
+#container .ticket .form p{
+	line-height: 3;
+}
+#container .ticket .form input{
+	width: 250px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 4px;
+	font-size: 25px;
+	color: #666;
+	padding: 5px;
+	margin: 0 0 0 15px;
+}
+#container .ticket .new{
+	margin: 10px 0 0 0;
+	font-size: 20px;
+}
+/*================================*/
+#container .ticket .new ul{
+	margin: 20px 0 0 0;
+}
+#container .ticket .new li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+#container .ticket .new li:first-child{
+	padding-left: 0;
+}
+#container .ticket .new li:nth-child(2){
+	background-color: #458000;
+	border-radius: 4px;
+	color: #fff
+}
+/*======================*/
+#container .ticket table{
+	margin:  20px 0 0 0 ;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+#container .ticket th{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+}
+#container .ticket td{
+	height: 50px;
+	line-height: 50px;	
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+#container .ticket tr:nth-child(2n){
+	background-color: #fafafa;
+}
+#container .ticket tr:hover{
+	background-color: #eee;
+} 
+#container .ticket .price{
+	color: #f60;
+}
+#container .ticket .more{
+	color: #f60;
+}
+
+#container .ticket .reserve{
+	display:inline-block;
+	width:80px;
+	height:35px;
+	line-height: 35px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background-color: #f60;
+	border-radius: 4px;
+
+}
